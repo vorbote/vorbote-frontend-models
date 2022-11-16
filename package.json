@@ -1,0 +1,19 @@
+{
+  "name": "vorbote-frontend-models",
+  "version": "1.0.0",
+  "description": "Frontend Common Data Models",
+  "main": "./lib/esm/index.js",
+  "module": "./lib/esm/index.js",
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json",
+    "prepublishOnly": "yarn tsc"
+  },
+  "license": "Apache-2.0",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  },
+  "files": [
+    "./lib/"
+  ]
+}
